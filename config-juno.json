@@ -1,0 +1,26 @@
+{
+    "autosave": true,
+    "cpu": true,
+    "opencl": false,
+    "cuda": false,
+    "pools": [
+        {
+            "coin": "juno",
+            "algo": "rx/juno",
+            "url": "127.0.0.1:3333",
+            "user": "jregtest1wkcaqf7xksj7v5laqf8ra77rfwlurall6cx30w4xqad0nm3tmqdajeafs9su3uqmru8k7jh8rpn77wrr645w9yt47dk9cf92kqq2wreq",
+            "pass": "x",
+            "keepalive": true,
+            "nicehash": false
+        }
+    ],
+    "randomx": {
+        "mode": "auto",
+        "1gb-pages": false,
+        "cache_qos": false
+    },
+    "log-file": "junorig.log",
+    "print-time": 60,
+    "retries": 5,
+    "retry-pause": 5
+}
