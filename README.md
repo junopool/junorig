@@ -20,7 +20,7 @@ make -j$(nproc)
 ./xmrig -o mine.junopool.org:3333 -u YOUR_JUNO_ADDRESS -a rx/juno
 ```
 
-Replace `YOUR_JUNO_ADDRESS` with your Juno Cash address (starts with `j1...`).
+Replace `YOUR_JUNO_ADDRESS` with your Juno Cash **transparent address** (starts with `t1...`).
 
 ## Options
 
@@ -35,10 +35,10 @@ Replace `YOUR_JUNO_ADDRESS` with your Juno Cash address (starts with `j1...`).
 
 ```bash
 # Use 4 threads
-./xmrig -o mine.junopool.org:3333 -u j1abc123... -a rx/juno -t 4
+./xmrig -o mine.junopool.org:3333 -u t1YourAddress... -a rx/juno -t 4
 
 # Use all threads
-./xmrig -o mine.junopool.org:3333 -u j1abc123... -a rx/juno
+./xmrig -o mine.junopool.org:3333 -u t1YourAddress... -a rx/juno
 ```
 
 ## Pool
